@@ -1,0 +1,16 @@
+package CLIPractice;
+
+public class vowelprogram {
+	public static void main(String[] args) {
+		String str="Hello this is string program";
+		for(int i=0;i<str.length();i++)
+		{
+			if(str.charAt(i) == 'a' || str.charAt(i) == 'e' || str.charAt(i) == 'i' || str.charAt(i) == 'o' || str.charAt(i) == 'u')
+			{
+				System.out.print(" "+str.charAt(i));
+			}
+		}
+		
+	}
+
+}
